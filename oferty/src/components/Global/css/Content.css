@@ -1,0 +1,2246 @@
+/* SLIDER */
+
+.slider-section {
+    background: rgba(0, 0, 0, 0.0);
+    position: relative;
+    overflow: hidden;
+    border-radius: 55px 55px 55px 55px;
+}
+
+.homebanner-holder {
+    padding-right: 0;
+    padding-left: 0;
+    background-color: rgba(0,0,0,0.0);
+    border-radius: 55px 55px 55px 55px;
+}
+
+.link{
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+
+#owl-main {
+    text-align: center;
+    cursor: default;
+    height: 650px;
+    z-index: 0;
+}
+
+#owl-main .item {
+    background-color: #ffffff;
+    border-radius: 55px 55px 55px 55px;
+    background-position: center 55%;
+    background-size: cover;
+    height: 600px;
+    border-color: transparent;
+}
+
+.title  
+{  
+        margin-bottom: 20px;  
+        padding:20px  
+}  
+.img  
+{  
+        height: 260px;width:100%  
+}
+
+.img_agotado {
+    position: absolute;
+    z-index: 500;
+    margin-top: 20px;
+    height: 260px; 
+}
+
+.img-agotado {
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images//agotado_banner.jpg');
+    position: absolute;
+    width: 100%;
+    z-index: 200;
+    border-radius: 40px;
+    height: 260px; 
+    opacity: 0.9;
+}
+
+.img-agotadoDest {
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images//agotado_banner.jpg');
+    position: absolute;
+    width: 95%;
+    z-index: 200;
+    height: 270px;
+    position: absolute;
+    z-index: 500;
+    margin-top: 20px;
+    height: 260px; 
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+.star-margin{
+    margin-top: 10% !important;
+}
+
+#inicio .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* BOTONES DEL INICIO */
+#botones_inicio {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    margin-top: 20px;
+}
+
+
+#botones_inicio .col-lg-2 {
+    width: 20% !important;
+    flex: 0 0 20%;
+    max-width: 20%;
+    float: left;
+}
+
+.categorias {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.categorias img {
+    height: 130px;
+}
+
+/*CUPONES DE LA SEMANA*/
+.scroll-tabs {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.scroll-tabs .more-info-tab {
+    padding: 5px 0px;
+    padding-bottom: 0px;
+}
+
+.more-info-tab h2 {
+    color: #000;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button_destc a {
+    float: right;
+    background-color: #FFFFFF;
+    padding: 8px 22px;
+    color: #000;
+    border-radius: 10px;
+    float: right;
+    font-style: 'Montserrat', sans-serif;
+    font-size: 18px;
+    box-shadow: 0 1px 2px #bbb;
+    margin-top: -40px;
+} 
+
+.item-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.titulo_destacado a {
+    float: right;
+    background-color: #FFFFFF;
+    padding: 8px 22px;
+    color: #000;
+    border-radius: 10px;
+    float: right;
+    font-style: 'Montserrat', sans-serif;
+    font-size: 18px;
+    box-shadow: 0 1px 2px #bbb;
+}
+
+.cJeRRR {
+    background-color: rgba(255, 113, 0,.5) !important;
+    box-shadow: 0 0 1px 3px rgb(255, 113, 0) !important;
+
+}
+
+.scroll-tabs .tab-content {
+    border-radius: 4px;
+}
+
+.tab-content {
+    margin-top: 10px;
+}
+
+.outer-top-xs {
+    font-size: 12px;
+}
+
+.item .products .image a {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    font-size: 14px;
+}
+
+.product .product-image img {
+    width: 100%;
+    border-radius: 35px 35px 35px 35px;
+    margin-bottom: 10px;
+}
+
+.product .product-info .brand {
+    float: none;
+    padding-top: 15px;
+    color: #000;
+    background: transparent;
+    display: block;
+    padding: 5px 15px;
+    position: relative;
+    float: right;
+    margin-top: -100px;
+    margin-left: 12px;
+}
+
+.brand img {
+    height: 60px;
+}
+
+.Contenedor {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1);
+    height: 106px;
+    clear: both;
+}
+
+.product .product-info .name {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #7A7A7A;
+    line-height: 1.3em;
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.product-price {
+    color: #7A7A7A;
+    font-family: "Coluna Rounded", sans-serif;
+    font-size: 45px;
+	float:right;
+    position:relative;
+}
+
+.col1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 40px !important;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1);
+    height: 260px;
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    width: 48% !important;
+    float: left;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+#banner-destacado .Promocion2 {
+    height: 260px !important;
+}
+
+.imagen_oferta2 {
+    float: left;
+    width: 220px;
+    height: 100%;
+    border-radius: 40px 0px 0px 40px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.col1 .txt_information {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.txt_information {
+    float: left;
+    width: 280px;
+    text-align:center;
+}
+
+.txt_information h3 {
+    color: #7A7A7A;
+    font-size: 40px;
+    font-family: "Coluna Rounded", sans-serif;
+    margin:0px auto;
+}
+
+.txt_information span {
+    font-family: "Montserrat", sans-serif;
+    color: #7A7A7A;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.txt_information .show-code {
+    width: 200px;
+    margin:0px auto;
+}
+
+
+.txt_information .show-code a {
+    background-color: #5494f9;
+    padding: 8px 22px;
+    color: #fff;
+    border-radius: 10px;
+    float: right;
+    font-style: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: normal;
+    margin-top: 10px;
+
+}
+
+.txt_information .precio {
+    float: right;
+    width: 200px;
+    font-style: "montserratregular", sans-serif;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.precio {
+    float: right;
+    margin-right: 6px;
+    color: #7A7A7A;
+    font-weight: 600;
+}
+
+.star{
+    display: inline-block !important;
+    text-align: center;
+    margin-top: 15px;
+    clear: both;
+    
+}
+
+
+.button_destc a {
+    float: right;
+    background-color: #FFFFFF;
+    padding: 8px 22px;
+    color: #000;
+    border-radius: 10px;
+    float: right;
+    font-style: "montserratregular", sans-serif;
+    font-size: 18px;
+    box-shadow: 0 1px 2px #bbb;
+    margin-top: -40px;
+    transform: perspective(1px) translateZ(0);
+}
+
+.button_destc a:hover,.button_destc a:focus,.button_destc a:active {
+    color: #000 !important;
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+@-webkit-keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes hvr-bob {
+    0% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+    50% {
+      -webkit-transform: translateY(-4px);
+      transform: translateY(-4px);
+    }
+    100% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+
+.titulo_destacado2 {
+    padding: 5px 0px;
+    color: #000;
+    margin-bottom: -25px;
+}
+
+#ofert_sem{
+    margin-top: 80px;
+}
+
+#SectionSemana .Promocion2 {
+    height: 260px !important;
+}
+
+#SectionHoy .Promocion2 {
+    height: 260px !important;
+}
+
+#SectionSalud .Promocion2{
+    height: 260px !important;
+}
+
+#SectionBelleza .Promocion2{
+    height: 260px !important;
+}
+
+#SectionComida .Promocion2{
+    height: 260px !important;
+}
+
+#ofert_hoy, #ofert_salud, #ofert_belleza, #ofert_comida{
+    margin-top: 80px;
+}
+
+#SectionHoy .etiq_semana img {
+    width: 80px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#SectionSalud .etiq_semana img {
+    width: 140px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+#SectionBelleza .etiq_semana img {
+    width: 80px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#SectionComida .etiq_semana img {
+    width: 80px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.iLquPE {
+  
+    background-color: rgba(255, 113, 0, 0.1) !important;
+    color: #FF7100 !important;
+    box-shadow: 0 0 2px 0px #FF7100 !important;
+
+}
+  
+.lgksPe {
+    background-color: rgba(255, 113, 0, 0.2) !important;
+    color: #FF7100 !important;
+    box-shadow: 0 0 2px 0px #FF7100 !important;
+}
+
+.col-ld{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* BUSCADOR */
+#buscador_section .lbl-cnt {
+    height: 60px;
+    width: 100%;
+    background-color: #efefef;
+}
+.contenedor_buscador {
+    float: right;
+    padding: 15px;
+}
+.contenedor_buscador label {
+    text-align: right;
+    padding-right: 10px;
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+}
+.contenedor_buscador select{
+    padding: 6px 12px;
+    border: #fff;
+    background-color: #fff;
+}
+
+.section_resultados .product .product-image .background_busqueda{
+    border-radius: 40px;
+    margin-bottom: 20px;
+    height: 170px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.resultados-busqueda .col-md-3{
+    float: left;
+    margin-bottom: 5%;
+}
+
+.resultados .col-md-3 {
+    float: left;
+    margin-bottom: 5%;
+}
+
+._1bpcM {
+    position: fixed !important;
+}
+
+.section_resultados {
+    margin-top: 8%;
+    margin-bottom: 50px;
+}
+
+.contenedor-progress{
+    text-align: center;
+    margin-top: 8%;
+    display: block;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.RSPBprogressBar {
+    display: block !important;
+}
+
+.cronometro{
+    right: 0px;
+    padding: 8px;
+    border-bottom-right-radius: 40px;
+    bottom: 0px;
+    position: absolute;
+    width: 57.5%;
+    background-color: #D0D3D9;
+}
+
+.cronometro .Timer {
+    position: relative;
+    text-align: center;
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+
+.cronometro .countdown {
+    font-size: 15px;
+    border-radius: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    font-family: "Montserrat",sans-serif;
+    color: #403F3F;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+/* CARGADOR LOADER */
+.box{
+    margin-top: 10% !important;
+    width: 400px;
+    height: auto;
+    border: 1px solid currentcolor;
+    border-radius: 3px;
+    font-size: 30px;
+    padding: 1em;
+    margin-bottom: 0.25em;
+    vertical-align: top;
+    transition: 0.3s color, 0.3s border, 0.3s transform, 0.9s opacity;
+    border: none;
+    color: #FF7100;
+    margin: 0 auto;
+}
+.box p{
+    font-size: 18px;
+    text-align: center;
+}
+[class*=loader-] {
+    width: 2em;
+    height: 2em;
+    color: inherit;
+    vertical-align: middle;
+    pointer-events: none;
+}
+.loader-21 {
+	position: relative;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.loader-21:before,.loader-21:after {
+    position: absolute;
+    content: "";
+}
+.loader-21:before {
+    width: 100%;
+    height: 100%;
+    left: 10%;
+    bottom: 10%;
+    border-radius: 100% 100% 100% 0;
+    box-shadow: 0px 0px 0px .1em currentcolor;
+    animation: loader-21 1s linear infinite;
+    transform: rotate(-46deg);
+}
+.loader-21:after {
+    width: 2em;
+    height: .4em;
+    border-radius: 100%;
+    left: 7px;
+    background-color: #FF7100;
+    opacity: 0.6;
+    bottom: -.95em;
+    z-index: -1;
+}
+
+
+@keyframes loader-21 {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -5px;
+	}
+	100% {
+		top: 0;
+	}
+}
+
+/*LOADER PRINCIPAL */
+@keyframes loader {
+	0%, 10%, 100% {
+		width: 80px;
+		height: 80px;
+	}
+	65% {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+.loader-pages {
+    position: fixed;
+    z-index: 25000;
+    background: rgb(255, 255, 255);
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+
+.loaders {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -50%) rotate(45deg) translate3d(0,0,0);
+    animation: loader 1.2s infinite ease-in-out;
+}
+
+.loaders span:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.loaders span:nth-child(2) {
+    top: 0;
+    right: 0;
+    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+}
+
+.loaders span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    animation: loaderBlockInverse 1.2s infinite ease-in-out both;
+}
+
+.loaders span:nth-child(4) {
+    bottom: 0;
+    right: 0;
+}
+
+.loaders span {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #FF7100;
+    animation: loaderBlock 1.2s infinite ease-in-out both;
+}
+
+
+
+/* CUPONES DESTACADO */
+
+.contenedor-trans-dest {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgb(0, 0, 0, 0.8);
+    height: 18%;
+    border-radius: 60px 60px 0px 0px;
+    width: 100%;
+}
+
+#destacado .centrar img {
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: transparent;
+    width: 180px;
+}
+
+.centrar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#destacado .centrado img {
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: transparent;
+    width: 240px;
+}
+
+.contenedor-titulo{
+    color: #fff;
+    background: rgb(36,38,45);
+    background: radial-gradient(circle, rgba(36,38,45,1) 0%, rgba(36,38,45,1) 26%, rgba(11,12,15,1) 100%);
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+.contenedor-titulo h2{
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.divisor{
+    background: rgba(248,154,12,1);
+    background: linear-gradient(135deg, rgba(248,154,12,1) 0%, rgba(255,194,17,1) 19%, rgba(255,245,153,1) 59%, rgba(132,73,0,1) 91%, rgba(248,154,12,1) 100%);
+    height: 10px;
+}
+
+.color-oro {
+    background: linear-gradient(135deg, rgba(248,154,12,1) 0%, rgba(255,194,17,1) 19%, rgba(255,245,153,1) 59%, rgba(132,73,0,1) 91%, rgba(248,154,12,1) 100%);
+    color: #000 !important;
+    font-weight: bolder;
+}
+
+.destacado .col-md-2{
+    float: left;
+}
+
+.destacado .col-md-5{
+    float: left;
+}
+
+.destacado .col-md-4{
+    float: left;
+}
+
+.texto-dest{
+    text-align: center;
+}
+.section-1{
+    padding-top: 5%;
+}
+.titulo-cont{
+
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    float: none;
+}
+
+.texto-dest h2{
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.figura-img{
+    padding-top: 12px;
+    width: 10%;
+    float: right;
+}
+
+.figura-img2{
+    padding-top: 12px;
+    width: 10%;
+}
+
+.background-white{
+    background: rgb(36,38,45);
+    background: radial-gradient(circle, rgba(36,38,45,1) 0%, rgba(36,38,45,1) 26%, rgba(11,12,15,1) 100%);
+}
+
+.destacado .Promocion2 {
+    height: 260px !important;
+}
+
+.col-dorado{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background: rgba(248,154,12,1);
+    background: linear-gradient(135deg, rgba(248,154,12,1) 0%, rgba(255,194,17,1) 19%, rgba(255,245,153,1) 59%, rgba(132,73,0,1) 91%, rgba(248,154,12,1) 100%);
+    border-radius: 40px !important;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+    height: 260px;
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    width: 48% !important;
+    float: left;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.col-dorado .txt_information {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.col-dorado h3{
+    color: #000;
+    text-transform: uppercase;
+}
+
+.col-dorado .detalles-cont{
+    background-color: #fff;
+    margin-left: -20px;
+    margin-right: -24px;
+    padding: 5px;
+}
+
+.detalles-cont p{
+    margin-bottom: 0px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 11px;
+}
+
+.txt_information .show-code-oro a {
+    background: radial-gradient(circle, rgba(36,38,45,1) 0%, rgba(36,38,45,1) 26%, rgba(11,12,15,1) 100%);
+    padding: 8px 22px;
+    color: #C3A14E !important;
+    border-radius: 30px;
+    float: none;
+    font-style: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: normal;
+    margin: 0 auto;
+}
+
+.cronometro-oro{
+    left: 43.7%;
+    right: 0px;
+    padding: 10px;
+    border-bottom-right-radius: 40px;
+    bottom: 0px;
+    position: absolute;
+    background: radial-gradient(circle, rgba(36,38,45,1) 0%, rgba(36,38,45,1) 26%, rgba(11,12,15,1) 100%);
+    
+}
+
+.cronometro-oro .countdown {
+    font-size: 14px;
+    border-radius: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+    font-family: "Montserrat",sans-serif;
+    color: #fff;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    box-shadow: none;
+}
+.cronometro-oro .Timer{
+    position: relative;
+    text-align: center;
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+.txt_information .show-code-oro {
+    width: 200px;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.divisor-lineal{
+    border-bottom-style: dashed; border-bottom-width: 4px;
+    color:  rgba(255,255,255, 0.1);
+}
+
+#sectionComida{
+    padding-bottom: 10%;
+}
+
+.destacado img{
+    border-radius: 60px 60px 0px 0px;
+}
+
+.progress-oro .RSPBprogressBar{
+    background-color: #fff !important;
+}
+
+/*CATEGORIAS CUPONES*/
+#SectionCategoria{
+    padding-top: 5%;
+}
+
+
+#SectionCategoria .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+
+/* TELEFONOS GENERALES */
+@media screen and (max-device-width : 480px) {
+    .main-header .logo-holder {
+        text-align: center;
+        width: 100%;
+    }
+
+    .resultados-busqueda .col-md-3 {
+        width: 48% !important;
+    }
+    
+    .resultados-busqueda .product {
+        width: 100% !important;
+    }
+
+    .section_resultados .product .product-image .background_busqueda {
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    #OfertasSimilares .back-imag{
+        width: 100%;
+    }
+
+    #OfertasSimilares .cukhLH {
+        margin:0px;
+    }
+
+    .single-product .product-tabs .tab-content .tab-pane {
+        padding: 0px 14px 24px 14px !important;
+    }
+
+    .resultados-busqueda .Contenedor{
+        height: 100px !important;
+    }
+
+    .col-dorado {
+        height: 300px;
+    }
+
+    .col1 .txt_information h3 {
+        font-size: 22px !important;
+        margin-top: 0px;
+        margin-bottom: 2px !important;
+    }
+
+    .col1 .txt_information .show-code a {
+        padding: 4px 8px !important;
+        font-size: 10px;
+        margin-top: 0px;
+        left: 0%;
+    }
+
+    .star{
+        font-size: 24px;
+        margin-top: 0px;
+    }
+
+    .col1 {
+        height: 260px;
+    }
+
+    .RSPBprogressBar {   
+        width: 80%;
+        margin: 0 auto;
+        display: block !important;
+    }
+
+    .contenedor-progress {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #Perfil_img{
+        width: 40px;
+        height: 40px;
+        margin-top: 10%;
+    }
+
+    .top-cart-row img{
+        width: 50px;
+    }
+
+    .product-image .image {
+        width: 100%;
+    }
+
+    .menu-destacado .navbar-default {
+        width: auto !important;
+        margin-top: 10px;
+        left: 0px !important;
+    }
+
+    .navmenu{
+        padding-right: 0px;
+        padding-left: 0px !important;
+    }
+
+
+    .img_perfil .dropdown-menu{
+        min-width: 100px !important;
+        width: 100px !important;
+    }
+
+    .dropdown-menu ul{
+        padding-inline-start: 0px;
+        width: 100px;
+    }
+
+    .dropdown-menu li{
+        word-break: break-all;
+    }
+
+    #section_campana .col-md-4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .dropdown-cart .dropdown-menu {
+        width: 350px !important;
+        margin-right: 10px;
+    }
+
+    .navbar-toggle {
+        margin-left: 8px !important;
+        position: absolute !important;
+        margin-bottom: 20px;
+    }
+
+    .hZSepS{
+        margin-bottom: 20px !important;
+    }
+
+    .scroll-tabs{
+        margin-bottom: 0px;
+    }
+
+    .columna_cuponSemana {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 60px;
+    }
+
+    .txt_information .show-code {
+        position: absolute;
+    }
+
+    .col1 .txt_information .show-code a {
+        align-items: center;
+        float: none;
+    }
+
+    .col1 .txt_information {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .col-pd{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-top: 0px;
+    }
+
+    .txt_information .show-code {
+        right: 0% !important;
+        left: 0%;
+        margin-right: 0px;
+        margin-right: 0px;
+        text-align: center;
+        width: auto !important;
+        margin-top: 0;
+        position:relative;
+    }
+
+    table {
+        max-width: 350px !important;
+        border-spacing: 1px !important;
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 374px) {
+
+    .outer-top-xs {
+        margin-top: 0px !important;
+    }
+
+    .product-image .image {
+        width: 140px;
+    }
+
+    #OfertasSimilares .product-image .image {
+        width: 100%;
+    }
+
+    .hZSepS {
+        margin: 10px !important;
+    }
+
+    .resultados-busqueda .col-md-3 {
+        width: 100% !important;
+    }
+
+    .resultados-busqueda .product-image .image {
+        width: 100%;
+    }
+    
+    .resultados-busqueda .product {
+        width: 100% !important;
+    }
+
+
+    .img-agotadoDest {
+        height: 170px !important;
+        width: 95%;
+    }
+
+    .product .product-info .name {
+        font-size: 14px
+    }
+
+    .Contenedor {
+        height: 150px !important;
+        clear: both;
+    }
+
+    .product-price {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    .brand img {
+        height: 30px;
+    }
+
+    .product .product-info .brand {
+        margin-top: -60px;
+    }
+
+    .col1 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    #menuProductos .col {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    #menuProductos .product-price {
+        font-size: 35px;
+        margin-right: 0px;
+        padding-right: 10px;
+    }
+
+    .imagen_oferta2 {
+        width: 100%;
+        height: 120px;
+        border-radius: 40px 40px 0px 0px;
+    }
+
+    .cronometro {
+        padding: 8px;
+        width: 100%;
+        border-bottom-left-radius: 40px;
+    }
+
+    .cronometro .countdown{
+        font-size: 11px;
+        padding: 0px;
+    }
+
+    #SectionSalud .Promocion2 {
+        height: 280px !important;
+    }
+
+    .img-agotado{
+        height: 260px;
+    }
+
+    .txt_information h3 {
+        font-size: 30px;
+    }
+
+    .star {
+        margin-top: 0px;
+    }
+
+    .txt_information span{
+        font-size: 26px !important;
+    }
+
+    #footer .col-lg-4 {
+        width: 100% !important;
+        float: left;
+    }
+
+    .margin-xs{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #destacado .centrado img {
+        width: 70px;
+    }
+
+    .color-oro {
+        font-size: 8px !important;
+        padding: 5px !important;
+    }
+
+    #sectionComida {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contenedor-titulo h2 {
+        font-size: 12px;
+    }
+
+    .texto-dest h2 {
+        font-size: 20px;
+    }
+
+    .col-dorado .txt_information h3 {
+        font-size: 22px !important;
+        margin-top: 0px;
+        margin-bottom: 2px !important;
+    }
+
+    .col-dorado .txt_information {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .cronometro-oro {
+        left: 0;
+        border-bottom-left-radius: 40px;
+        padding: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .detalles-cont p {
+        font-size: 8px;
+    }
+
+    .col-dorado .detalles-cont {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .show-code-oro{
+        width: auto !important;
+    }
+    .txt_information .show-code-oro a {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+    .cronometro-oro .countdown{
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .col-dorado {
+        height: 320px;
+    }
+
+    .figura-img {
+        width: 100%;
+
+    }
+
+    .figura-img2 {
+        width: 100%;
+    }
+
+    .destacado .texto-dest{
+        width: 70%;
+    }
+
+    .destacado .img-triang{
+        width: 15%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width:769) and (max-width:1190){
+    .contenedor-cuponesDest .m-campana{
+        margin-left: 0px !important;
+    }
+    
+    .contenedor-cuponesDest{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+
+@media screen and (min-width : 768px) {
+    .col-md-4 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .col-md-6{
+        width: 50% !important;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: left;
+    }
+
+    .col-dorado{
+        height: 280px;
+    }
+
+    .col-dorado .Promocion2{
+        height: 283px !important;
+    }
+
+    .col-md-4{
+        width: 33.33%;
+        float: left;
+    }
+
+    .contenedor-cuponesDest .m-campana{
+        margin-left: 0px !important;
+    }
+
+}
+
+
+
+/* Media 400px a 360px */
+@media (max-width: 400px) and (min-width: 360px){
+
+    .categorias img {
+        height: 65px !important;
+      }
+    
+      .titulo_destacado h2 {
+        font-size: 22px;
+        padding-right: 120px;
+      }
+    
+      .button_destc a {
+        font-size: 14px !important;
+      }
+
+      .img-agotadoDest {
+        height: 190px !important;
+        width: 108%;
+        }
+
+    
+      button:focus{
+        outline: none !important;
+      }
+    
+      .brand img {
+        height: 30px !important;
+      }
+    
+      .Contenedor {
+        height: 145px !important;
+      }
+
+    
+      .product-price {
+        font-size: 25px !important;
+        position: absolute;
+        bottom: 19%;
+      }
+    
+      #product-tabs-slider .bkVSTc{
+        margin-top: -40px;
+      }
+    
+      .cJeRRR {
+        background-color: rgba(255, 113, 0,.5) !important;
+        box-shadow: 0 0 1px 3px rgb(255, 113, 0) !important;
+    
+        }
+
+    .columna_cuponSemana {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 60px;
+    }
+
+    .col-destacado {
+        width: 46%;
+        height: 540px;
+    }
+
+    .col-8 {
+        width: 48% !important;
+    }
+
+    .columna-destacado {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    .col1 {
+        margin-bottom: 10px !important;
+        margin-top: 10px !important;
+    }
+    
+
+    .img-agotado {
+        height: 260px !important;
+    }
+
+    .imagen_oferta2 {
+        width: 100% !important;
+        height: 113px !important;
+        border-radius: 40px 40px 0px 0px !important;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+
+    #detalles_ofer1 {
+        font-size: 12px !important;
+        max-width: 177px !important;
+    }
+
+    .cronometro {
+        padding: 8px;
+        width: 100%;
+        border-bottom-left-radius: 40px;
+    }
+
+    .cronometro .countdown{
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    #SectionCategoria{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #banner-destacado .priceAntes {
+        margin-left: 60px;
+    }
+
+    .texto_precio {
+        font-size: 10px;
+    }
+
+    .txt_information .priceAntes .texto_precio span {
+        margin-left: 0px !important;
+        font-size: 12px !important;
+    }
+
+    .col1 .img_valor {
+        margin-left: 0px;
+    }
+
+    .col1 .txt_information span {
+        font-size: 24px !important;
+    }
+
+    .col1 .price-before {
+        left: 0px;
+    }
+
+    .col1 .priceOferta {
+        margin-left: -20px;
+    }
+
+    .texto_precio {
+        font-size: 10px;
+    }
+
+    .star{
+        font-size: 24px;
+    }
+
+    #banner-destacado{
+        margin: .2rem !important;
+        margin-bottom: .5rem !important;
+    }
+
+    
+    #banner-campanas{
+        margin: .2rem !important;
+    }
+
+    .titulo_destacado  a {
+        font-size: 14px !important;
+    }
+
+    .jRqwJi {
+        padding-left: 10px;
+        grid-template-columns: repeat(2,100%) !important;
+
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    /* OFERTAS DESTACADAS */
+    .columnas {
+        width: 48%;
+        height: 280px !important;
+        margin-left: 5px;
+    }
+
+    .col-pd{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #SectionSemana .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #SectionHoy .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #SectionSalud .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #ofert_belleza .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #ofert_comida .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #SectionHoy .etiq_semana img {
+        width: 50px !important;
+        margin-top: 11px;
+        margin-left: 10px;
+    }
+
+    #SectionSalud .etiq_semana img {
+        width: 80px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    #SectionBelleza .etiq_semana img {
+        width: 50px;
+        margin-top: 10px;
+        
+    }
+
+    #SectionComida .etiq_semana img {
+        margin-top: 15px;
+        margin-left: 0px;
+        overflow: hidden !important;
+    }
+
+    .etiq_semana {
+        overflow: hidden !important;
+    }
+
+    #destacado .centrado img {
+        width: 100px;
+    }
+
+    .contenedor-titulo h2 {
+        font-size: 12px;
+    }
+
+    .texto-dest h2 {
+        font-size: 20px;
+    }
+
+    .col-dorado .txt_information h3 {
+        font-size: 22px !important;
+        margin-top: 0px;
+        margin-bottom: 2px !important;
+    }
+
+    .col-dorado .txt_information {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .cronometro-oro {
+        left: 0;
+        border-bottom-left-radius: 40px;
+        padding: 10px;
+    }
+
+    .detalles-cont p {
+        font-size: 8px;
+    }
+
+    .col-dorado .detalles-cont {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .show-code-oro{
+        width: auto !important;
+    }
+    .txt_information .show-code-oro a {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+    .cronometro-oro .countdown{
+        font-size: 8px;
+        padding: 0px;
+    }
+
+    .figura-img {
+        width: 100%;
+
+    }
+
+    .figura-img2 {
+        width: 100%;
+    }
+
+    .destacado .texto-dest{
+        width: 70%;
+    }
+
+    .destacado .img-triang{
+        width: 15%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+
+/* Media 411px a 500px */
+@media (min-width: 411px) and (max-width: 765px){
+    .categorias img {
+        height: 70px !important;
+    }
+
+    #destacado .centrado img {
+        width: 120px;
+    }
+
+    .col-dorado{
+        height: 300px;
+    }
+
+    
+      .titulo_destacado h2 {
+        padding-right: 140px;
+        font-size: 30px;
+        color: #000;
+      }
+    
+    
+      .product {
+        width: 220px !important;
+      }
+
+      #OfertasSimilares .products {
+        width: 220px !important;
+        }
+
+
+      button:focus{
+        outline: none !important;
+      }
+    
+      .brand img {
+        height: 40px !important;
+      }
+    
+      .Contenedor {
+        height: 135px !important;
+      }
+    
+      .product .product-info .name {
+        font-size: 12px !important;
+      }
+    
+      .product-price {
+        font-size: 30px !important;
+        position: absolute;
+        bottom: 19%;
+      }
+    
+      #product-tabs-slider .bkVSTc{
+        margin-top: -40px;
+      }
+    
+      .cJeRRR {
+        background-color: rgba(255, 113, 0,.5) !important;
+        box-shadow: 0 0 1px 3px rgb(255, 113, 0) !important;
+    
+    }
+
+    .col-destacado {
+        width: 46%;
+        height: 540px;
+    }
+
+    .col-8 {
+        width: 48% !important;
+    }
+
+    .cronometro {
+        padding: 8px;
+        width: 100%;
+        border-bottom-left-radius: 40px;
+    }
+
+    .cronometro .countdown{
+        font-size: 11px;
+        padding: 0px;
+    }
+
+    .columna-destacado {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    .col1 {
+        margin-bottom: 10px !important;
+        margin-top: 10px !important;
+    }
+    
+    #banner-destacado .Promocion2 {
+        height: 280px !important;
+    }
+
+    .img-agotado{
+        height: 260px !important;
+    }
+
+    .img-agotadoDest {
+        height: 190px !important;
+        width: 112%;
+    }
+
+    .imagen_oferta2 {
+        width: 100% !important;
+        height: 113px !important;
+        border-radius: 40px 40px 0px 0px !important;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+
+    .col1 .txt_information h3 {
+        font-size: 22px !important;
+        margin-top: 0px;
+        margin-bottom: 2px !important;
+    }
+
+    #detalles_ofer1 {
+        font-size: 12px !important;
+        max-width: 177px !important;
+    }
+
+    .col1 .txt_information .show-code a {
+        align-items: center;
+        float: none;
+    }
+
+    .col1 .txt_information {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        height: auto;
+    }
+
+    .col1 .txt_information .show-code a {
+        padding: 4px 8px !important;
+        font-size: 10px;
+        margin-top: 0px;
+        left: 0%;
+    }
+
+    .contenedor-titulo h2 {
+        font-size: 12px;
+    }
+
+    .texto-dest h2 {
+        font-size: 20px;
+    }
+
+    .col-dorado .txt_information h3 {
+        font-size: 22px !important;
+        margin-top: 0px;
+        margin-bottom: 2px !important;
+    }
+
+    .col-dorado .txt_information {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    .cronometro-oro {
+        left: 0;
+        border-bottom-left-radius: 40px;
+        padding: 10px;
+    }
+
+    .detalles-cont p {
+        font-size: 8px;
+    }
+
+    .col-dorado .detalles-cont {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .show-code-oro{
+        width: auto !important;
+    }
+    .txt_information .show-code-oro a {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+    .cronometro-oro .countdown{
+        font-size: 9px;
+        padding: 0px;
+    }
+
+    .destacado .col-md-4 {
+        width: 33.33333%;
+    }
+
+    .figura-img {
+        width: 50%;
+    }
+
+    .figura-img2 {
+        width: 50%;
+    }
+
+    #banner-destacado .priceAntes {
+        margin-left: 60px;
+    }
+
+    .texto_precio {
+        font-size: 10px;
+    }
+
+    .txt_information .priceAntes .texto_precio span {
+        margin-left: 0px !important;
+        font-size: 12px !important;
+    }
+
+    .col1 .img_valor {
+        margin-left: 0px;
+    }
+
+    .col1 .txt_information span {
+        font-size: 24px !important;
+    }
+
+    .col1 .price-before {
+        left: 0px;
+    }
+
+    .col1 .priceOferta {
+        margin-left: -20px;
+    }
+
+    .texto_precio {
+        font-size: 10px;
+    }
+
+    .RSPBprogressBar {
+        width: 80%;
+        margin: 0 auto;
+        display: block !important;
+    }
+
+    .contenedor-progress{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #banner-destacado{
+        margin: .2rem !important;
+    }
+
+
+    #banner-campanas{
+        margin: .2rem !important;
+    }
+
+
+    .jRqwJi {
+        padding-left: 10px;
+        grid-template-columns: repeat(2,100%) !important;
+
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    /* OFERTAS DESTACADAS */
+    .columnas {
+        width: 48%;
+        height: 280px !important;
+        margin-left: 5px;
+    }
+
+    #SectionSemana .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #SectionHoy .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #SectionSalud .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #ofert_belleza .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #ofert_comida .m-2 {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    #SectionHoy .etiq_semana img {
+        width: 60px !important;
+        margin-top: 11px;
+        margin-left: 10px;
+    }
+
+    #SectionSalud .etiq_semana img {
+        width: 90px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    #SectionBelleza .etiq_semana img {
+        width: 60px;
+        margin-top: 10px;
+        
+    }
+
+    #SectionComida .etiq_semana img {
+        margin-top: 15px;
+        margin-left: 0px;
+        overflow: hidden !important;
+    }
+
+    .etiq_semana {
+        overflow: hidden !important;
+    }
+}
+
+/* Media 768px a 991px */
+@media (min-width: 768px) and (max-width: 1080px){
+
+    .iLquPE {
+  
+      background-color: rgba(255, 113, 0, 0.1) !important;
+      color: #FF7100 !important;
+      box-shadow: 0 0 2px 0px #FF7100 !important;
+  
+    }
+
+    .resultados-busqueda .col-md-3 {
+        width: 48% !important;
+    }
+    
+    .resultados-busqueda .product {
+        width: 100% !important;
+    }
+
+    .section_resultados .product .product-image .background_busqueda {
+        width: 100%;
+        border-radius: 30px;
+    }
+    
+    .lgksPe {
+        background-color: rgba(255, 113, 0, 0.2) !important;
+        color: #FF7100 !important;
+        box-shadow: 0 0 2px 0px #FF7100 !important;
+    }
+
+    #destacado .centrado img {
+        width: 200px;
+    }
+
+    #sectionComida {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .txt_information .show-code-oro a {
+        font-size: 15px !important;
+        width: 150px;
+        float: left;
+    }
+
+    .cronometro-oro .Timer{
+        width: 100%;
+    }
+
+    .col-dorado .detalles-cont {
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1020px){
+    #banner-destacado .imagen_oferta2 {
+        width: 140px !important;
+        height: 100%;
+    }
+
+    .Contenedor {
+        height: 130px;
+    }
+
+    .product-price {
+        margin-top: 10px;
+    }
+
+    .txt_information {
+        width: 175px !important;
+        float: right;
+    }
+
+    .columna_cuponSemana .txt_information h3 {
+        font-size: 30px;
+    }
+
+    .txt_information span {
+        font-size: 13px !important;
+    }
+
+    .txt_information .show-code a {
+        font-size: 15px !important;
+        width: 150px;
+        float: left;
+    }
+
+    .columna_cuponSemana .star span{
+        font-size: 25px !important;
+    }
+
+    .columna_cuponSemana {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .columna_cuponSemana .m-2{
+        margin: .3rem!important;
+    }
+
+    .imagen_oferta2 {
+        width: 140px !important;
+    }
+
+    #SectionSemana{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #SectionHoy .m-2{
+        margin: .3rem!important;
+    }
+
+    #SectionSemana .m-2{
+        margin: .3rem!important;
+    }
+
+    .star span{
+        font-size: 25px !important;
+    }
+
+    .txt_information h3 {
+        font-size: 34px;
+    }
+
+    #SectionHoy .etiq_semana img {
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    #SectionSalud{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #SectionSalud .m-2{
+        margin: .3rem!important;
+    }
+
+    #SectionSalud .etiq_semana img {
+        width: 100px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    #ofert_belleza{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #ofert_belleza .m-2{
+        margin: .3rem !important;
+    }
+
+    #ofert_comida{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #ofert_comida .m-2{
+        margin: .3rem !important;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){
+    #banner-destacado .imagen_oferta2 {
+        width: 170px !important;
+        height: 100%;
+    }
+
+    #banner-destacado .txt_information {
+        width: 240px;
+    }
+
+    
+}

@@ -1,0 +1,286 @@
+.top-banner img {
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px 0px;
+    border-radius: 60px 60px 60px 60px;
+    background-color: transparent;
+}
+
+.section_ofertaspub img {
+    margin-top: 30px;
+}
+
+#section_campana .etiq_semana img {
+    width: 140px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+#section_campana .Promocion2 {
+    height: 260px !important;
+}
+
+.m-campana{
+    margin: .5rem!important;
+    margin-top: 40px!important;
+    margin-right: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-left: 0.5rem !important;
+}
+
+#BloqueComida .etiq_semana img{
+    margin-top: 0px;
+    margin-left: -5px;
+}
+
+#BloqueDolar .etiq_semana img {
+    width: 80px;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+#SemanaListas {
+    margin-top: 30px;
+}
+
+#SectionOferSemana .col-md-4 {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-lineas-diagonales {
+    background-color: rgba(238, 237, 237, 0.8);
+    background: rgba(238, 237, 237, 0.8);
+    color: rgba(238, 237, 237, 0.8);
+    padding: 6px 0 12px;
+    height: 1px;
+    width: 80px;
+    transform: rotate(
+    250deg
+    ) scale(1) skew(
+    0deg
+    ) translate(0px);
+        -webkit-transform: rotate(
+    250deg
+    ) scale(1) skew(
+    0deg
+    ) translate(0px);
+    border-radius: 999px;
+    display: inline-block;
+    margin-left: -30px;
+    margin-top: 35px;
+}
+
+#SectionOferSemana .col-md-4 {
+    margin: 0;
+    padding: 0;
+}
+
+.tittle_def {
+    margin-left: -15px !important;
+}
+
+.Style_Tittle {
+    background-color: #969da0;
+    border-radius: 999px;
+    margin: 0px auto;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 14px;
+    padding-right: 10px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.margin_lineas {
+    margin-left: 0px !important;
+}
+
+#Lunes_Semana .etiq_semana {
+    width: 140px;
+    margin-top: -20px;
+    margin-left: -20px !important;
+    overflow: hidden !important;
+}
+
+#Martes_Semana .etiq_semana {
+    width: 140px;
+    margin-top: -20px;
+    margin-left: -20px !important;
+    overflow: hidden !important;
+}
+
+#Miercoles_Semana .etiq_semana {
+    width: 140px;
+    margin-top: -20px;
+    margin-left: -20px !important;
+    overflow: hidden !important;
+}
+
+#Jueves_Semana .etiq_semana {
+    width: 140px;
+    margin-top: -20px;
+    margin-left: -20px !important;
+    overflow: hidden !important;
+}
+
+#Viernes_Semana .etiq_semana {
+    width: 140px;
+    margin-top: -20px;
+    margin-left: -20px !important;
+    overflow: hidden !important;
+}
+
+#Sabado_Semana .etiq_semana {
+    width: 140px;
+    margin-top: -20px;
+    margin-left: -20px !important;
+    overflow: hidden !important;
+}
+
+#Domingo_Semana .etiq_semana {
+    width: 140px;
+    margin-top: -20px;
+    margin-left: -20px !important;
+    overflow: hidden !important;
+}
+
+#SectionSemanaMartes{
+    margin-top: 50px;
+}
+
+#SectionSemanaMier{
+    margin-top: 50px;
+}
+
+#SectionSemanaJuev{
+    margin-top: 50px;
+}
+
+#SectionSemanaVier{
+    margin-top: 50px;
+}
+
+#SectionSemanaSab{
+    margin-top: 50px;
+}
+
+#SectionSemanaDom{
+    margin-top: 50px;
+}
+
+.Detalles_Destacado .DatosOfer h3 {
+    color: #4A4C4C;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+@media (min-width: 320px) and (max-width: 409px){
+    .bg-lineas-diagonales {
+        width: 60px;
+        margin-left: -20px !important;
+    }
+}
+
+@media (min-width:415px) and (max-width:768px){
+    .m-campana {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: .5rem !important;
+        margin-top: .5rem !important;
+    }
+
+    .camp-margin{
+        margin-bottom: 10%;
+    }
+}
+
+@media (min-width:768px)and (max-width:1023px){
+    .section-title h2 {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-title .col-md-4{
+        width: 100% !important;
+        flex: 0 0 100%;
+        max-width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1100px){
+    .camp-margin{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .line_diag{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #SemanaListas{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .margin_lineas{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-device-width : 480px) {
+    .m-campana {
+        margin: 0px !important;
+        margin-left: 0.3em !important;
+        margin-bottom: .5rem !important;
+        margin-top: .5rem !important;
+    }
+
+
+    .camp-margin{
+        margin-bottom: 15%;
+    }
+
+    #section_campana .etiq_semana img {
+        width: 100px;
+    }
+
+    #BloqueDolar .etiq_semana img {
+        width: 50px;
+    }
+
+    #BloqueComida .etiq_semana img {
+        width: 80px;
+        margin-left: -1px;
+    }
+
+    #BloqueBelleza .etiq_semana img {
+        width: 80px;
+    }
+
+    .tittle_def{
+        margin-left: 0px !important;
+    }
+
+    .margin_lineas{
+        margin-left: 28px !important;
+    }
+}
+

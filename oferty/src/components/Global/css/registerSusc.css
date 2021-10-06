@@ -1,0 +1,144 @@
+.register-form .col-md-6{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+#ced select{
+    float: left;
+    width: 16.667% !important;
+}
+
+#ced{
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+#Cedula{
+    float: left;
+    margin-left: 10px;
+}
+
+#ced .col-md-9{
+    max-width: 81.2%;
+}
+
+.image-preview, #callback-preview {
+    width: 240px;
+    height: 170px;
+    border: 2px dashed #ddd;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+}
+
+#image-preview{
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#image-preview2{
+    background-size: cover;
+    background-position: center center;
+}
+
+.body-content .sign-in-page .register-form .form-group {
+    margin-bottom: 20px;
+}
+
+.body-content .sign-in-page .register-form label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.image-preview label, #callback-preview label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    color: #fff !important;
+}
+
+#suscription input[type="file"] {
+    display: none!important;
+}
+
+#suscription .img_txt {
+    font-size: 10px;
+    color: #bdc3c7;
+    margin-top: 5px;
+}
+
+.error {
+    color: #db2269 !important;
+    font-size: 0.625em;
+}
+
+.error-ced{
+    margin-top: 60px;
+}
+
+@media (min-width: 768px){
+    #ced .col-md-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    #suscription #image-preview{
+        width: 100%;
+    }
+
+    #suscription #image-preview2{
+        width: 100%;
+    }
+}
+
+
+@media (min-width:50px) and (max-width:580px){
+    #ced select {
+        float: left;
+        width: 100% !important;
+    }
+
+    #ced .col-md-9 {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (max-device-width : 767px) {
+    #ced select {
+        float: left;
+        width: 100% !important;
+    }
+
+    #ced .col-md-9 {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+
+  
+  }

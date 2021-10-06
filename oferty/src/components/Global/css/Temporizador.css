@@ -1,0 +1,93 @@
+.Timer{
+    position: absolute;
+    display: flex;
+    text-align:right;   
+    color: black;
+}
+
+.countdown {
+    font-size: 14px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    font-family: "Montserrat",sans-serif;
+    color: #333;
+    text-align: right;
+    border: white 2px solid;
+    font-weight: bold;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1), 0 1px 5px 0 rgba(0,0,0,.1);
+}
+
+
+.TimerDestacado{
+    overflow: visible;
+    z-index: 100;
+    position: absolute;
+    width: 56%;
+    text-align: right;
+}
+
+.Cronometro {
+    float: right;
+    text-align: right;
+    margin-right: -170px;
+    margin-top: -22px;
+    overflow: visible;
+}
+
+#countdown1 {
+    z-index: 150;
+    float: right;
+    font-size: 25px;
+    font-family: "Coluna Rounded",sans-serif;
+    color: #fff;
+    text-align: right;
+    margin-right: -185px;
+    margin-top: -6px;
+    text-align: center;
+    
+}
+
+.texto_cronometro {
+    float: right;
+    z-index: 280;
+    margin-right: -185px;
+    margin-top: 25px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 8px;
+}
+
+.texto_cronometro p {
+    margin-left: 20px;
+    float: right;
+    z-index: 280;
+}
+
+.contenedor-image{
+    position: relative;
+}
+
+.img-agotada{
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (max-device-width : 480px) {
+    .Cronometro {
+        margin-right: -147px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 374px) {
+    .countdown{
+        font-size: 11px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}

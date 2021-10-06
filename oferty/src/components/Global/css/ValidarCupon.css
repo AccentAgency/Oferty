@@ -1,0 +1,86 @@
+.section_validation {
+    margin-top: 30px !important;
+}
+
+.section_validation label {
+    font-size: 14px;
+    float: left;
+}
+
+.section_validation .col-md-2{
+    width: 16.666667%;
+}
+
+.section_validation .col-md-8{
+    width: 66.666667%;
+    float:left;
+}
+
+.section_validation .form-control {
+    height: 40px;
+}
+
+#sectin_validation .row{
+    position: relative;
+    width: 100%;
+}
+
+#section_info {
+    margin-top: 40px;
+}
+
+#section_info h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FF7100;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#section_info .form-control {
+    background-color: #fdfdff;
+    border-color: #F4BA92;
+    padding: 10px 15px;
+    height: 42px;
+}
+
+.foto_cupon img {
+    width: 30%;
+    position: relative;
+    float: left;
+    clear: none;
+    display: block;
+    margin-top: 30px;
+}
+
+.txt_detalles {
+    float: left;
+    width: 65%;
+    border: 1px solid #ddd;
+    clear: none;
+    padding: 15px;
+}
+
+.contenedor_info {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+#section_info label {
+    color: #6c757d;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:600;
+}
+
+.btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active {
+    background-color: #eee !important;
+    border-color: #eee !important;
+    color: #aaa !important;
+}
+
+@media screen and (max-device-width : 480px) {
+    .section_validation .col-md-8 {
+        width: 100%;
+        float: left;
+    }
+}

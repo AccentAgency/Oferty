@@ -1,0 +1,537 @@
+.outer-top-ts {
+    margin-top: 9px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+    box-shadow: 0 0.46875rem 2.1875rem rgb(90 97 105 / 10%), 0 0.9375rem 1.40625rem rgb(90 97 105 / 10%), 0 0.25rem 0.53125rem rgb(90 97 105 / 12%), 0 0.125rem 0.1875rem rgb(90 97 105 / 10%);
+    padding: 10px;
+    display: block;
+    margin-left: 0px;
+}
+
+#FormularioCompra .tiendas-form{
+    width: auto;
+    margin-left: 0%;
+    text-align: left;
+}
+
+.collapsible {
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.tiendas-form img {
+    margin-right: 10px;
+}
+
+.collapsible:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    color: #AAA9A9;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+
+
+.label-input100 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #393939;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline;
+}
+
+.input100 {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #555555;
+    line-height: 1.2;
+    padding-right: 15px;
+    margin-top: 5px;
+}
+
+.wrap-input50 {
+    width: 100%;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom:  0px;
+    margin-top: 15px;
+}
+
+.error{
+    position: absolute !important;
+    display: block; 
+    font-size: 11px;
+}
+
+#FormularioCompra .Collapsible .col-md-6{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.wrap-input50 select {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 12px;
+    color: #555555;
+    font-family: 'montserratregular', sans-serif;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+textarea.input100 {
+    min-height: 70px;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+
+textarea {
+    border: none;
+    outline-width: thin;
+    outline-color: #ccc;
+}
+
+input.input100 {
+    height: 15px;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.Grupo-Input {
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+
+.caja {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 15px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #848484;
+}
+
+.Pagos {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Pagos button{
+    float: left;
+    font-family: 'montserratregular', sans-serif;
+    border-radius: 10px;
+    color: #333;
+    font-size: 14px;
+    border: 1px solid #5494f9;
+    margin: 0 10px 0 0;
+    width: 155px;
+    height: 64px;
+}
+
+.div_tranf button{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+.tiendas-form img {
+    margin-right: 10px;
+}
+
+.Tranf {
+    text-align: right;
+}
+
+.MetodoDePago img {
+    display: inline-block;
+    margin: auto;
+    margin-top: -5%;
+}
+
+.BancaAmericana {
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+}
+
+#Merc, #BOD, #Prov {
+    padding-right: 10px;
+}
+
+#Div_Tranf img{
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#Pagos a:hover{
+    color: #333 !important;
+}
+
+.DatosdelPago {
+    align-items: left;
+    justify-content: left;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+
+}
+
+.container-input h5{
+    font-size: 14px;
+}
+
+.tiendas-form .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.inputfile-6 + label {
+    color: #FC7032;
+}
+
+.inputfile-6 + label figure {
+    width: 100px;
+    height: 135px;
+    background-color: #FF894A;
+    display: block;
+    position: relative;
+    padding: 30px;
+    margin: 0 auto 10px;
+}
+
+.inputfile-6 + label figure::before {
+    border-top: 20px solid #ffffff;
+    border-left: 20px solid transparent;
+}
+
+.inputfile-6 + label figure::before, .inputfile-6 + label figure::after {
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tiendas-form .iborrainputfile {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lato';
+}
+
+.inputfile-6 + label svg {
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+}
+
+.inputfile-6 + label figure::after {
+    border-bottom: 20px solid #FC7032;
+    border-right: 20px solid transparent;
+}
+
+.inputfile-6 + label figure::before, .inputfile-6 + label figure::after {
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Collapsible{
+    padding: 0 18px;
+}
+
+.InputData {
+    margin-top: 1em !important;
+    justify-content: left;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    width: 140%;
+}
+
+.InputData .Grupo-Input {
+    padding-left: 0px;
+}
+
+.info_pago{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#Content{
+    margin-top: 20px;
+}
+
+.Collapsible__contentOuter{
+    margin-top: 20px;
+}
+
+.Tabla_Cont {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.Tabla_Cont th{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.table th {
+    border-top: none;
+}
+
+.Tabla_Cont .imagen_car{
+    width: 100px !important;
+}
+
+.factura {
+    padding: 15px;
+}
+
+.factura img {
+    display: block;
+    margin: auto;
+}
+
+.Oferty {
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Loew",sans-serif;
+    color: #333;
+}
+
+.line-monto {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.line-monto .bold {
+    font-weight: bold;
+}
+
+.total-dolares {
+    color: #333;
+    text-align: right;
+}
+
+.FinalizarCompra {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.FinalizarCompra button{
+    font-family: 'Montserrat', sans-serif;
+    background: #FF7100;
+    border-radius: 999px;
+    color: #fff;
+    margin: 0 10px 0 0;
+    padding: 10px 15px;
+    border: none;
+}
+
+.factura{
+    font-size: 13px;
+}
+
+.arrow{
+    float: right;
+    margin-top: 5px;
+}
+
+.input-direccion{
+    margin-bottom: 20px;
+}
+
+input[type=file] {
+    display: block;
+}
+
+.DatosdelPago .wrap-input100{
+    margin-bottom: 30px;
+}
+
+.DatosdelPago .error{
+    margin-top: -20px;
+}
+
+.Titulo_det{
+    padding-left: 15px;
+}
+
+@media screen and (max-device-width : 480px) {
+    .Pagos {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .tiendas-form{
+        text-align: center !important;
+    }
+
+    #Content{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .Collapsible{
+        display: inline-block;
+        width: 100%;
+    }
+
+
+    .Pagos button{
+        margin-bottom: 10px !important;
+        margin:0 auto
+    }
+
+    .BancaAmericana {
+        display: inline !important;
+    }
+
+    .InputData{
+        width: 100%;
+    }
+
+    #carrito  table caption {
+        font-size: 1.3em;
+    }
+
+    #carrito  table {
+        border: 0;
+    }
+
+    #carrito  table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    #carrito  table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    #carrito table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+        padding: 15px !important;
+    }
+
+    #carrito table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    } 
+
+    #carrito table td:last-child {
+        border-bottom: 0;
+    }
+
+    .table-responsive table {
+        min-width: auto !important;
+        padding: 0 18px;
+    }
+
+    .Tabla_Cont .imagen_car{
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #FormularioCompra .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .Pagos button {
+        height: 94px;
+    }
+
+    .BancaAmericana {
+        display: inline !important;
+        text-align: center;
+    }
+
+    .div_tranf{
+        margin-top: 20px;
+    }
+}

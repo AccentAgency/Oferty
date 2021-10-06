@@ -1,0 +1,424 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'montserratregular', sans-serif;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.seccion_catg {
+    margin-top: -50px;
+    background: #e1e0df;
+}
+
+.wrapper nav {
+    width: 100%;
+    padding: 15px;
+}
+
+.tab {
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 0px;
+    list-style: none;
+    background: #fff;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 10%);
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+}
+
+.navbar-center {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.categorias_store .navbar-collapse .navbar-nav > li > a {
+    font-family: 'Montserrat', sans-serif;
+    background: #ff7100;
+    border-radius: 999px;
+    color: #fff;
+    margin: 0 10px 0 0;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 160px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.seccion_catg .navbar-collapse{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.prom-oferta {
+    width: 100%;
+    height: 310px;
+    border-radius: 40px 40px 0px 0px;
+    background-size: cover;
+    background-position: center;
+}
+
+.Detalles_Destacado {
+    padding-bottom: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+.col {
+    margin-top: 40px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%), 0 1px 5px 0 rgb(0 0 0 / 10%);
+    height: 500px;
+    flex: 0 0 48% !important;
+    max-width: 48% !important;
+    float: left;
+}
+
+.DatosOfer {
+    display: block;
+    margin: 1em 0;
+}
+
+.Star2{
+    float: left;
+    margin-top: 0px;
+    margin-left: 45px;
+    margin-top: -50px;
+}
+
+.Detalles_Destacado .product-price {
+    font-size: 55px;
+}
+
+#CatgProductos .Promocion2 {
+    height: 260px !important;
+}
+
+#menu #banner-susc01 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menuServicio{
+    margin-bottom: 80px;
+}
+
+#menu-comida{
+    margin-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#menu-belleza{
+    margin-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#menu-salud{
+    margin-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#menu-servicio{
+    margin-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media (min-width: 100px) and (max-width: 359px) {
+    #CatgProductos .Promocion2 {
+        height: 300px !important;
+    }
+
+    #menuProductos .col1 {
+        height: 300px !important;
+    }
+
+    .categorias_store .navbar-collapse .navbar-nav > li > a {
+        width: 100px !important;
+        font-size: 11px !important; 
+        text-align: center !important;
+        padding: 8px !important; 
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+        margin: 0 10px 10px 0 !important;
+    }
+
+    .seccion_catg{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 400px){
+    .categorias_store .navbar-collapse .navbar-nav > li > a {
+        width: 80px !important;
+        font-size: 10px !important;
+        text-align: center !important;
+        padding: 6px !important;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+
+    .seccion_catg .col-md-12{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .seccion_catg{
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 700px){
+    .categorias_store .navbar-nav > li {
+        display: inline !important;
+    }
+
+    .categorias_store .navbar-nav > li {
+        margin-right: 0px;
+    }
+
+    .categorias_store .navbar-collapse .navbar-nav > li > a {
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 130px;
+        font-size: 12px;
+        margin-left: 18px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .seccion_catg .navbar-collapse{
+        display: block;
+    }
+
+    .promocion1 {
+        height: 150px !important;
+    }
+
+    #menuProductos .DatosOfer h3 {
+        font-size: 16px;
+    }
+
+    .more_info span {
+        font-size: 24px !important;
+    }
+
+    #menuProductos .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    #menu-comida {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-belleza {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-salud {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-servicio{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-comida .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    #menu-belleza .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    #menu-salud .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    #menu-servicio .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    .Star2{
+        margin: 0 auto;
+        float: none;
+    }
+
+    #menuProductos .product-price{
+        bottom: 5%;
+        margin-left: 20px;
+    }
+
+    #CatgProductos{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .m-2{
+        margin: .2rem !important;
+    }
+}
+
+@media screen and (max-device-width : 767px) {
+    .categorias_store .navbar-nav > li {
+        display: inline !important;
+    }
+
+    .categorias_store .navbar-nav > li {
+        margin-right: 0px;
+    }
+
+    .categorias_store .navbar-collapse .navbar-nav > li > a {
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 130px;
+        font-size: 12px;
+        margin-left: 18px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .seccion_catg .navbar-collapse{
+        display: block;
+    }
+
+    .promocion1 {
+        height: 150px !important;
+    }
+
+    #menuProductos .DatosOfer h3 {
+        font-size: 16px;
+    }
+
+    .more_info span {
+        font-size: 24px !important;
+    }
+
+    #menuProductos .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    #menu-comida {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-belleza {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-salud {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-servicio{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menu-comida .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    #menu-belleza .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    #menu-salud .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    #menu-servicio .col{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 350px;
+    }
+
+    .Star2{
+        margin: 0 auto;
+        float: none;
+    }
+
+    #menuProductos .product-price{
+        bottom: 5%;
+        margin-left: 20px;
+    }
+ 
+    #CatgProductos{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .m-2{
+        margin: .6rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .seccion_catg {
+        padding-left: 80px !important;
+    }
+
+    .categorias_store .navbar-collapse .navbar-nav > li {
+        margin-bottom: 10px;
+    }
+
+    #CatgProductos{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .col-md-12{
+        width: 100%;
+    }
+
+    #CatgProductos{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #menuProductos .col-md-6{
+        width: 48% !important;
+        margin-left: 12px !important;
+        margin-right: 0px !important;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}
